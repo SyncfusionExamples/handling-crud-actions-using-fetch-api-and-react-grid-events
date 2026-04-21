@@ -52,4 +52,3 @@ Start the app and open it in the browser. The grid reads data from the Express A
 
 - Video: https://www.youtube.com/watch?v=lGEPmY0bOws
 - Guide: http://bit.ly/2R2TY3E
-- Samples: http://bit.ly/2pWK2hf, http://bit.ly/2ONRMKJ, http://bit.ly/34sNtuZ
