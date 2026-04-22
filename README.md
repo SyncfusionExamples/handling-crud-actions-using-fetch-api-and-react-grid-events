@@ -1,10 +1,14 @@
 # React Data Grid CRUD Operations with Fetch API
 
+## Repository Description
+
 Practical React + Express sample demonstrating server-side CRUD for a data grid using the Fetch API.
 
-## Overview
+### Overview
 
-Shows how to expose REST endpoints with Express and call them from React via a small Fetch-based service. The example binds server data to a React data grid and updates via the `dataSourceChanged` event.
+This sample application demonstrates how to implement full server-side CRUD (Create, Read, Update, Delete) operations in a React application using the Fetch API and an Express backend. It highlights how grid-level events, such as `dataSourceChanged`, can be used to synchronize user actions in a React data grid with RESTful API endpoints.
+
+The project showcases a clean separation between the UI layer and data access logic by using a lightweight Fetch-based service. When users add, edit, or delete records in the grid, the corresponding HTTP requests are triggered and processed by the Express server, ensuring data consistency between the client and server.
 
 ## Features
 
@@ -15,8 +19,13 @@ Shows how to expose REST endpoints with Express and call them from React via a s
 
 ## Prerequisites
 
-- Node.js
-- npm
+Before running this application, ensure you have the following installed and basic familiarity with the listed technologies:
+
+- Node.js (LTS version recommended)
+- npm (comes bundled with Node.js)
+- Basic understanding of React and functional components
+- Familiarity with REST APIs and HTTP methods (GET, POST, PUT, DELETE)
+- A modern web browser (Chrome, Edge, or Firefox) for testing
 
 ## Running the Application
 
