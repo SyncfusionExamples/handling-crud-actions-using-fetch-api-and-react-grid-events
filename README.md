@@ -1,45 +1,63 @@
 # React Data Grid CRUD Operations with Fetch API
 
-This repository demonstrates how to implement server-side CRUD (Create, Read, Update, Delete) operations in a React Data Grid using Fetch API and client-side events. The project serves as a practical example of building a robust data management system with React and Express.
+## Repository Description
 
-##  Overview
+Practical React + Express sample demonstrating server-side CRUD for a data grid using the Fetch API.
 
-Learn how to perform server-side CRUD operations in the React Data Grid using Fetch API and client-side events of React Grid. This implementation showcases how to create REST APIs using the Express server and call the endpoints through a custom service using the Fetch API. The project demonstrates how to bind the custom service with the React Data Grid using the dataSourceChanged event.
+## Overview
 
-Watch the tutorial video: https://www.youtube.com/watch?v=lGEPmY0bOws
+This sample application demonstrates how to implement full server-side CRUD (Create, Read, Update, Delete) operations in a React application using the Fetch API and an Express backend. It highlights how grid-level events, such as `dataSourceChanged`, can be used to synchronize user actions in a React data grid with RESTful API endpoints.
 
+The project showcases a clean separation between the UI layer and data access logic by using a lightweight Fetch-based service. When users add, edit, or delete records in the grid, the corresponding HTTP requests are triggered and processed by the Express server, ensuring data consistency between the client and server.
 
-##  Prerequisites
+## Features
 
-Before you begin, ensure you have the following installed:
-- Node.js (v14 or higher)
-- npm (v6 or higher)
+- Server-side CRUD (Express REST endpoints)
+- Fetch-based client service for API calls
+- Integration with a React data grid using grid events
+- Runnable demo with sample data
 
-##  Installation
+## Prerequisites
+
+Before running this application, ensure you have the following installed and basic familiarity with the listed technologies:
+
+- Node.js (LTS version recommended)
+- npm (comes bundled with Node.js)
+- Basic understanding of React and functional components
+- Familiarity with REST APIs and HTTP methods (GET, POST, PUT, DELETE)
+- A modern web browser (Chrome, Edge, or Firefox) for testing
+
+## Running the Application
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/ramyarajendran27/handling-crud-actions-using-fetch-api-and-react-grid-events.git
-   cd handling-crud-actions-using-fetch-api-and-react-grid-events
-   ```
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+```cmd
+git clone https://github.com/ramyarajendran27/handling-crud-actions-using-fetch-api-and-react-grid-events.git
+```
+
+2. Navigate to the project folder:
+
+```cmd
+cd handling-crud-actions-using-fetch-api-and-react-grid-events
+```
+
+3. Install dependencies:
+
+```cmd
+npm install
+```
 
 3. Start the development server:
-   ```bash
-   npm start
-   ```
 
-##  Documentation
+```cmd
+npm run serve
+```
 
-For detailed information about CRUD operations using AJAX, visit our comprehensive documentation:
-http://bit.ly/2R2TY3E
+## Quick Usage
 
-## Additional Resources
+Start the app and open it in the browser. The grid reads data from the Express API and sends add/edit/delete requests via the included service.
 
-- Server-side CRUD operations using DataManager video: http://bit.ly/2pWK2hf
-- Getting Started sample: http://bit.ly/2ONRMKJ
-- Server-side CRUD sample: http://bit.ly/34sNtuZ
+## Resources
+
+- Video: https://www.youtube.com/watch?v=lGEPmY0bOws
+- Guide: http://bit.ly/2R2TY3E
